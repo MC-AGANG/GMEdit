@@ -1,0 +1,197 @@
+﻿<UserControl x:Class="ChannalCard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GMEdit_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="64" d:DesignWidth="216"
+             Background="#252526"
+             Name="MainBoard"
+             MouseEnter="MainBoard_MouseEnter"
+             MouseLeave="MainBoard_MouseLeave"
+             MouseDown="MainBoard_MouseDown">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="8"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8"/>
+            <RowDefinition/>
+            <RowDefinition Height="4"/>
+            <RowDefinition/>
+            <RowDefinition Height="8"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            <DockPanel Width="22" Background="Red" Name="colorsign">
+                <Label Background="#00000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#80000000" BorderBrush="#80000000" BorderThickness="2" Padding="0" Name="channalnum">
+                    1
+                </Label>
+            </DockPanel>
+            <DockPanel Width="8"></DockPanel>
+            <DockPanel>
+                <TextBox Name="tb" 
+                         Width="170" Background="#FF333337" BorderBrush="#FF434346" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FFF0F0F0" SelectionBrush="Gray"
+                         TextChanged="tb_TextChanged">Channal1</TextBox>
+            </DockPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <DockPanel Width="22" Background="DarkRed" Name="MuteButtom"
+                       MouseDown="MuteButtom_MouseDown"
+                       MouseUp="MuteButtom_MouseUp" 
+                       MouseEnter="MuteButtom_MouseEnter"
+                       Cursor="Hand">
+                <Label Background="#00000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#80000000" BorderBrush="#80000000" BorderThickness="2" Padding="0">
+                    M
+                </Label>
+            </DockPanel>
+            <DockPanel Width="22" Name="SoloButtom" Background="DarkGreen"
+                       MouseDown="SoloButtom_MouseDown"
+                       MouseUp="SoloButtom_MouseUp" 
+                       MouseEnter="SoloButtom_MouseEnter"
+                       Cursor="Hand">
+                <Label Background="#00000000" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#80000000" BorderBrush="#80000000" BorderThickness="2" Padding="0">
+                    S
+                </Label>
+            </DockPanel>
+            <DockPanel Width="8"></DockPanel>
+            <ComboBox Width="148" BorderBrush="#FF434346" Background="#FF333337" SelectedIndex="0" Name="InstrumentList"
+                      SelectionChanged="InstrumentList_SelectionChanged">
+                <ComboBox.Resources>
+                    <SolidColorBrush x:Key="{x:Static SystemColors.WindowBrushKey}" Color="#FF1B1B1C" />
+                </ComboBox.Resources>
+                <ListBoxItem Content="1 钢琴1" Foreground="White"/>
+                <ListBoxItem Content="2 钢琴2" Foreground="White"/>
+                <ListBoxItem Content="3 电钢琴" Foreground="White"/>
+                <ListBoxItem Content="4 酒吧钢琴" Foreground="White"/>
+                <ListBoxItem Content="5 练习音钢琴" Foreground="White"/>
+                <ListBoxItem Content="6 合唱加钢琴" Foreground="White"/>
+                <ListBoxItem Content="7 拨弦古钢琴" Foreground="White"/>
+                <ListBoxItem Content="8 击弦古钢琴" Foreground="White"/>
+                <ListBoxItem Content="9 钢片琴" Foreground="White"/>
+                <ListBoxItem Content="10 钟琴" Foreground="White"/>
+                <ListBoxItem Content="11 八音盒" Foreground="White"/>
+                <ListBoxItem Content="12 电颤琴" Foreground="White"/>
+                <ListBoxItem Content="13 马林巴" Foreground="White"/>
+                <ListBoxItem Content="14 木琴" Foreground="White"/>
+                <ListBoxItem Content="15 管钟" Foreground="White"/>
+                <ListBoxItem Content="16 扬琴" Foreground="White"/>
+                <ListBoxItem Content="17 击杆风琴" Foreground="White"/>
+                <ListBoxItem Content="18 打击型风琴" Foreground="White"/>
+                <ListBoxItem Content="19 摇滚风琴" Foreground="White"/>
+                <ListBoxItem Content="20 管风琴" Foreground="White"/>
+                <ListBoxItem Content="21 簧风琴" Foreground="White"/>
+                <ListBoxItem Content="22 手风琴" Foreground="White"/>
+                <ListBoxItem Content="23 口琴" Foreground="White"/>
+                <ListBoxItem Content="24 探戈手风琴" Foreground="White"/>
+                <ListBoxItem Content="25 尼龙弦吉他" Foreground="White"/>
+                <ListBoxItem Content="26 钢弦吉他" Foreground="White"/>
+                <ListBoxItem Content="27 爵士乐电吉他" Foreground="White"/>
+                <ListBoxItem Content="28 清音电吉他" Foreground="White"/>
+                <ListBoxItem Content="29 弱音电吉他" Foreground="White"/>
+                <ListBoxItem Content="30 驱动音效吉他" Foreground="White"/>
+                <ListBoxItem Content="31 失真音效吉他" Foreground="White"/>
+                <ListBoxItem Content="32 吉他泛音" Foreground="White"/>
+                <ListBoxItem Content="33 原声贝司" Foreground="White"/>
+                <ListBoxItem Content="34 指拨电贝司" Foreground="White"/>
+                <ListBoxItem Content="35 拨片拨电贝司" Foreground="White"/>
+                <ListBoxItem Content="36 无品贝司" Foreground="White"/>
+                <ListBoxItem Content="37 击弦贝司1" Foreground="White"/>
+                <ListBoxItem Content="38 击弦贝司2" Foreground="White"/>
+                <ListBoxItem Content="39 合成贝司1" Foreground="White"/>
+                <ListBoxItem Content="40 合成贝司2" Foreground="White"/>
+                <ListBoxItem Content="41 小提琴" Foreground="White"/>
+                <ListBoxItem Content="42 中提琴" Foreground="White"/>
+                <ListBoxItem Content="43 大提琴" Foreground="White"/>
+                <ListBoxItem Content="44 低音提琴" Foreground="White"/>
+                <ListBoxItem Content="45 弦乐震音" Foreground="White"/>
+                <ListBoxItem Content="46 弦乐拨奏" Foreground="White"/>
+                <ListBoxItem Content="47 竖琴" Foreground="White"/>
+                <ListBoxItem Content="48 定音鼓" Foreground="White"/>
+                <ListBoxItem Content="49 弦乐合奏1" Foreground="White"/>
+                <ListBoxItem Content="50 弦乐合奏2" Foreground="White"/>
+                <ListBoxItem Content="51 合成弦乐1" Foreground="White"/>
+                <ListBoxItem Content="52 合成弦乐2" Foreground="White"/>
+                <ListBoxItem Content="53 合唱“啊”音" Foreground="White"/>
+                <ListBoxItem Content="54 人声“嘟”音" Foreground="White"/>
+                <ListBoxItem Content="55 合成人声" Foreground="White"/>
+                <ListBoxItem Content="56 乐队打击乐" Foreground="White"/>
+                <ListBoxItem Content="57 小号" Foreground="White"/>
+                <ListBoxItem Content="58 长号" Foreground="White"/>
+                <ListBoxItem Content="59 大号" Foreground="White"/>
+                <ListBoxItem Content="60 弱音小号" Foreground="White"/>
+                <ListBoxItem Content="61 圆号" Foreground="White"/>
+                <ListBoxItem Content="62 铜管组" Foreground="White"/>
+                <ListBoxItem Content="63 合成铜管1" Foreground="White"/>
+                <ListBoxItem Content="64 合成铜管2" Foreground="White"/>
+                <ListBoxItem Content="65 高音萨克斯" Foreground="White"/>
+                <ListBoxItem Content="66 中音萨克斯" Foreground="White"/>
+                <ListBoxItem Content="67 次中音萨克斯" Foreground="White"/>
+                <ListBoxItem Content="68 上低音萨克斯" Foreground="White"/>
+                <ListBoxItem Content="69 双簧管" Foreground="White"/>
+                <ListBoxItem Content="70 英国管" Foreground="White"/>
+                <ListBoxItem Content="71 大管" Foreground="White"/>
+                <ListBoxItem Content="72 单簧管" Foreground="White"/>
+                <ListBoxItem Content="73 短笛" Foreground="White"/>
+                <ListBoxItem Content="74 长笛" Foreground="White"/>
+                <ListBoxItem Content="75 竖笛" Foreground="White"/>
+                <ListBoxItem Content="76 排笛" Foreground="White"/>
+                <ListBoxItem Content="77 吹瓶口" Foreground="White"/>
+                <ListBoxItem Content="78 尺八" Foreground="White"/>
+                <ListBoxItem Content="79 哨" Foreground="White"/>
+                <ListBoxItem Content="80 奥卡雷那" Foreground="White"/>
+                <ListBoxItem Content="81 合成主音1-方波" Foreground="White"/>
+                <ListBoxItem Content="82 合成主音2-锯齿" Foreground="White"/>
+                <ListBoxItem Content="83 合成主音3-汽笛风琴" Foreground="White"/>
+                <ListBoxItem Content="84 合成主音4-吹管" Foreground="White"/>
+                <ListBoxItem Content="85 合成主音5-吉他" Foreground="White"/>
+                <ListBoxItem Content="86 合成主音6-人声" Foreground="White"/>
+                <ListBoxItem Content="87 合成主音7-五度" Foreground="White"/>
+                <ListBoxItem Content="88 合成主音8-低音加主音" Foreground="White"/>
+                <ListBoxItem Content="89 合成柔音1-幻想" Foreground="White"/>
+                <ListBoxItem Content="90 合成柔音2-暖音" Foreground="White"/>
+                <ListBoxItem Content="91 合成柔音3-复合成" Foreground="White"/>
+                <ListBoxItem Content="92 合成柔音4-合唱" Foreground="White"/>
+                <ListBoxItem Content="93 合成柔音5-弓弦" Foreground="White"/>
+                <ListBoxItem Content="94 合成柔音6-金属" Foreground="White"/>
+                <ListBoxItem Content="95 合成柔音7-光环" Foreground="White"/>
+                <ListBoxItem Content="96 合成柔音8-扫弦" Foreground="White"/>
+                <ListBoxItem Content="97 合成特效1-冰雨" Foreground="White"/>
+                <ListBoxItem Content="98 合成特效2-音轨" Foreground="White"/>
+                <ListBoxItem Content="99 合成特效3-水晶" Foreground="White"/>
+                <ListBoxItem Content="100 合成特效4-大气" Foreground="White"/>
+                <ListBoxItem Content="101 合成特效5-明亮" Foreground="White"/>
+                <ListBoxItem Content="102 合成特效6-小妖" Foreground="White"/>
+                <ListBoxItem Content="103 合成特效7-回声" Foreground="White"/>
+                <ListBoxItem Content="104 合成特效8-科幻" Foreground="White"/>
+                <ListBoxItem Content="105 锡塔尔" Foreground="White"/>
+                <ListBoxItem Content="106 班卓" Foreground="White"/>
+                <ListBoxItem Content="107 三味线" Foreground="White"/>
+                <ListBoxItem Content="108 日本筝" Foreground="White"/>
+                <ListBoxItem Content="109 卡林巴" Foreground="White"/>
+                <ListBoxItem Content="110 风笛" Foreground="White"/>
+                <ListBoxItem Content="111 古提琴" Foreground="White"/>
+                <ListBoxItem Content="112 唢呐" Foreground="White"/>
+                <ListBoxItem Content="113 铃铛" Foreground="White"/>
+                <ListBoxItem Content="114 拉丁打铃" Foreground="White"/>
+                <ListBoxItem Content="115 钢鼓" Foreground="White"/>
+                <ListBoxItem Content="116 木块" Foreground="White"/>
+                <ListBoxItem Content="117 太鼓" Foreground="White"/>
+                <ListBoxItem Content="118 嗵鼓" Foreground="White"/>
+                <ListBoxItem Content="119 合成鼓" Foreground="White"/>
+                <ListBoxItem Content="120 反镲波形" Foreground="White"/>
+                <ListBoxItem Content="121 磨弦" Foreground="White"/>
+                <ListBoxItem Content="122 呼吸" Foreground="White"/>
+                <ListBoxItem Content="123 海浪" Foreground="White"/>
+                <ListBoxItem Content="124 鸟鸣" Foreground="White"/>
+                <ListBoxItem Content="125 电话" Foreground="White"/>
+                <ListBoxItem Content="126 直升机" Foreground="White"/>
+                <ListBoxItem Content="127 鼓掌" Foreground="White"/>
+                <ListBoxItem Content="128 枪声" Foreground="White"/>
+            </ComboBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

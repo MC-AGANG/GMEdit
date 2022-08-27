@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="TickBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GMEdit_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="32" d:DesignWidth="4096"
+             Loaded="UserControl_Loaded">
+    <Grid Background="#333337" Name="mb">
+        <Rectangle Stroke="#FFF38B76" Fill="#33F38B76" Height="32" Width="9" HorizontalAlignment="Left" StrokeThickness="2" Name="progressbar"></Rectangle>
+    </Grid>
+</UserControl>

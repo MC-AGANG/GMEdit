@@ -1,0 +1,399 @@
+﻿<UserControl x:Class="DrumKeys"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GMEdit_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="3072" d:DesignWidth="72"
+             Loaded="UserControl_Loaded">
+    <Grid>
+        <StackPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d127" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d126" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d125" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d124" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d123" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d122" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d121" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d120" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d119" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d118" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d117" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d116" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d115" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d114" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d113" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d112" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d111" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d110" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d109" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d108" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d107" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d106" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d105" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d104" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d103" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d102" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d101" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d100" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d99" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d98" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d97" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d96" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d95" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d94" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d93" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d92" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d91" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d90" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d89" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d88" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d87" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">强音瑟多</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d86" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">弱音瑟多</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d85" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">响板</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d84" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">树铃</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d83" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">铃铛</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d82" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">沙锤2</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d81" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">强音三角铁</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d80" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">弱音三角铁</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d79" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">强音吉加</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d78" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">弱音吉加</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d77" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">低音木块</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d76" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">高音木块</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d75" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">击杆</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d74" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">长锯琴</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d73" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">短锯琴</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d72" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">长哨</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d71" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">短哨</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d70" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">响葫芦</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d69" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">沙锤</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d68" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">低拉丁铃</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d67" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">高拉丁铃</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d66" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">低音铜鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d65" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">高音铜鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d64" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">低音康加</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d63" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">强音康加</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d62" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">弱音康加</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d61" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">低音邦戈</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d60" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">高音邦戈</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d59" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">高浮音镲</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d58" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">颤音叉</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d57" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">砸音镲2</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d56" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">牛铃</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d55" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">溅音镲</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d54" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">铃鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d53" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">浮音镲碗</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d52" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">中国镲</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d51" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">低浮音镲</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d50" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">高音嗵鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d49" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">砸音镲</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d48" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">中高音嗵鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d47" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">中低音嗵鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d46" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">强音踩镲</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d45" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">低音嗵鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d44" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">踏音踩镲</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d43" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">高落地嗵鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d42" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">合音踩镲</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d41" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">低落地嗵鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d40" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">电子小鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d39" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">拍手声</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d38" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">小鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d37" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">鼓边</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d36" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">电子大鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d35" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">大鼓</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d34" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">节拍器2</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d33" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">节拍器</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d32" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">方板</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d31" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">鼓槌</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d30" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">低音刷音</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d29" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">高音刷音</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d28" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">合成拍音</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d27" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray">激光枪</Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d26" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d25" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d24" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d23" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d22" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d21" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d20" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d19" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d18" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d17" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d16" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d15" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d14" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d13" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d12" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d11" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d10" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d9" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d8" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d7" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d6" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d5" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d4" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d3" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d2" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d1" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+            <DockPanel Height="24" Background="#DDDDDD" Name="d0" MouseEnter="key_mouseenter" MouseLeave="key_mouseleave" MouseDown="key_mousedown" MouseUp="key_mouseup">
+                <Label FontWeight="Bold" Foreground="Gray"></Label>
+            </DockPanel>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

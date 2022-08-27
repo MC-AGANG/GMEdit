@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="Notebar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GMEdit_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="24" d:DesignWidth="128"
+             Name="mb"
+             VerticalAlignment="top"
+             HorizontalAlignment="left"
+             IsEnabledChanged="mb_IsEnabledChanged"
+             Loaded="mb_Loaded">
+    <Grid>
+        <DockPanel
+            Cursor="SizeAll"
+                   Name="ppart"
+                   PreviewMouseDown="ppart_MouseDown"
+                   MouseMove="ppart_MouseMove"
+                   MouseUp="ppart_MouseUp"
+                   MouseEnter="ppart_MouseEnter">
+            <Label Foreground="#60000000" FontWeight="Bold" Name="lb">60</Label>
+        </DockPanel>
+        <DockPanel Width="4" HorizontalAlignment="Right" Cursor="SizeWE" Name="spart" MouseDown="spart_MouseDown" MouseMove="spart_MouseMove"  MouseUp="spart_MouseUp" Background="#01000000"/>
+    </Grid>
+</UserControl>

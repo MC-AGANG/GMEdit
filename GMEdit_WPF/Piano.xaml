@@ -1,0 +1,164 @@
+﻿<UserControl x:Class="Piano"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GMEdit_WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="3072" d:DesignWidth="72"
+             Loaded="UserControl_Loaded">
+    <Grid>
+        <StackPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l127"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l125"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l124"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l122"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l120">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C9</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l119"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l117"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l115"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l113"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l112"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l110"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l108">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C8</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l107"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l105"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l103"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l101"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l100"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l098"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l096">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C7</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l095"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l093"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l091"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l089"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l088"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l086"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l084">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C6</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l083"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l081"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l079"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l077"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l076"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l074"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l072">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C5</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l071"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l069"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l067"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l065"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l064"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l062"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l060">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C4</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l059"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l057"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l055"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l053"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l052"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l050"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l048">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C3</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l047"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l045"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l043"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l041"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l040"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l038"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l036">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C2</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l035"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l033"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l031"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l029"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l028"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l026"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l024">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C1</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l023"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l021"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l019"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l017"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l016"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l014"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l012">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C0</Label>
+            </DockPanel>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l011"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l009"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l007"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l005"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l004"/>
+            <DockPanel Height="48" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l002"/>
+            <DockPanel Height="36" Background="#F1F1F1" MouseEnter="DockPanel_MouseEnter" MouseDown="DockPanel_MouseDown" MouseLeave="DockPanel_MouseLeave" MouseUp="DockPanel_MouseUp" Name="l000">
+                <Label HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="#808080">C-1</Label>
+            </DockPanel>
+        </StackPanel>
+        <DockPanel Margin="0,24,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l126"/>
+        <DockPanel Margin="0,96,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l123"/>
+        <DockPanel Margin="0,144,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l121"/>
+        <DockPanel Margin="0,216,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l118"/>
+        <DockPanel Margin="0,264,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l116"/>
+        <DockPanel Margin="0,312,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l114"/>
+        <DockPanel Margin="0,384,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l111"/>
+        <DockPanel Margin="0,432,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l109"/>
+        <DockPanel Margin="0,504,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l106"/>
+        <DockPanel Margin="0,552,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l104"/>
+        <DockPanel Margin="0,600,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l102"/>
+        <DockPanel Margin="0,672,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l099"/>
+        <DockPanel Margin="0,720,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l097"/>
+        <DockPanel Margin="0,792,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l094"/>
+        <DockPanel Margin="0,840,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l092"/>
+        <DockPanel Margin="0,888,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l090"/>
+        <DockPanel Margin="0,960,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l087"/>
+        <DockPanel Margin="0,1008,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l085"/>
+        <DockPanel Margin="0,1080,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l082"/>
+        <DockPanel Margin="0,1128,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l080"/>
+        <DockPanel Margin="0,1176,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l078"/>
+        <DockPanel Margin="0,1248,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l075"/>
+        <DockPanel Margin="0,1296,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l073"/>
+        <DockPanel Margin="0,1368,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l070"/>
+        <DockPanel Margin="0,1416,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l068"/>
+        <DockPanel Margin="0,1464,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l066"/>
+        <DockPanel Margin="0,1536,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l063"/>
+        <DockPanel Margin="0,1584,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l061"/>
+        <DockPanel Margin="0,1656,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l058"/>
+        <DockPanel Margin="0,1704,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l056"/>
+        <DockPanel Margin="0,1752,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l054"/>
+        <DockPanel Margin="0,1824,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l051"/>
+        <DockPanel Margin="0,1872,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l049"/>
+        <DockPanel Margin="0,1944,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l046"/>
+        <DockPanel Margin="0,1992,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l044"/>
+        <DockPanel Margin="0,2040,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l042"/>
+        <DockPanel Margin="0,2112,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l039"/>
+        <DockPanel Margin="0,2160,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l037"/>
+        <DockPanel Margin="0,2232,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l034"/>
+        <DockPanel Margin="0,2280,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l032"/>
+        <DockPanel Margin="0,2328,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l030"/>
+        <DockPanel Margin="0,2400,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l027"/>
+        <DockPanel Margin="0,2448,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l025"/>
+        <DockPanel Margin="0,2520,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l022"/>
+        <DockPanel Margin="0,2568,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l020"/>
+        <DockPanel Margin="0,2616,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l018"/>
+        <DockPanel Margin="0,2688,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l015"/>
+        <DockPanel Margin="0,2736,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l013"/>
+        <DockPanel Margin="0,2808,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l010"/>
+        <DockPanel Margin="0,2856,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l008"/>
+        <DockPanel Margin="0,2904,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l006"/>
+        <DockPanel Margin="0,2976,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l003"/>
+        <DockPanel Margin="0,3024,0,0" Width="50" Height="24" VerticalAlignment="Top" HorizontalAlignment="left" Background="#0A0A0A" MouseEnter="DockPanel_MouseEnter_1" MouseDown="DockPanel_MouseDown_1" MouseLeave="DockPanel_MouseLeave_1" MouseUp="DockPanel_MouseUp_1" Name="l001"/>
+    </Grid>
+</UserControl>

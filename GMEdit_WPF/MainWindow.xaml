@@ -1,0 +1,311 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GMEdit_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="640" Width="1024" WindowStyle="None" ResizeMode="NoResize"
+        Loaded="Window_Loaded"
+        Name="Form1" AllowsTransparency="True"
+        Background="Transparent"
+        KeyDown="Form1_KeyDown"
+        Deactivated="Form1_Deactivated"
+        Activated="Form1_Activated" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="ScrollBar">
+            <Setter Property="Background" Value="#3E3E42"/>
+            <Setter Property="BorderBrush" Value="#3E3E42"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Rectangle Stroke="#FF007ACC" Margin="7" Name="borderall"></Rectangle>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="8"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition Height="32"/>
+                <RowDefinition/>
+                <RowDefinition Height="4"/>
+                <RowDefinition Height="28"/>
+                <RowDefinition Height="8"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8"/>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="233"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="32"/>
+                <ColumnDefinition Width="8"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="3"
+                        Grid.Column="2" 
+                        Grid.ColumnSpan="2" 
+                        Background="#FF1E1E1E">
+            </StackPanel>
+            <local:BackBoard Grid.Row="3"
+                         Grid.Column="3"
+                         x:Name="Backboard1"
+                         Visibility="Hidden"></local:BackBoard>
+            <local:titlebar Height="32"
+                        Margin="0,0,0,0"
+                        VerticalAlignment="Top"
+                        x:Name="tb1" Grid.ColumnSpan="4" Grid.Row="1" Grid.Column="1">
+            </local:titlebar>
+            <StackPanel Grid.Row="2" Grid.ColumnSpan="4" Background="#2D2D30" Orientation="Horizontal" Grid.Column="1" >
+                <DockPanel Width="16"></DockPanel>
+                <DockPanel Name="newbuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="newbuttom_MouseUp" 
+                       ToolTip="新建">
+                    <Image Source="Image/new.png"></Image>
+                </DockPanel>
+                <DockPanel Name="openbuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="openbuttom_MouseUp" ToolTip="打开">
+                    <Image Source="Image/open.png"></Image>
+                </DockPanel>
+                <DockPanel Name="savebuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="savebuttom_MouseUp" ToolTip="保存">
+                    <Image Source="Image/save.png"></Image>
+                </DockPanel>
+                <DockPanel Name="savenewbuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="savenewbuttom_MouseUp" ToolTip="另存为">
+                    <Image Source="Image/savenew.png"></Image>
+                </DockPanel>
+                <DockPanel Name="openmidifilebuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="openmidifilebuttom_MouseUp"  ToolTip="从MIDI文件导入">
+                    <Image Source="Image/openmidifile.png"></Image>
+                </DockPanel>
+                <DockPanel Name="exportmcfbuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="exportmcfbuttom_MouseUp"  ToolTip="导出红石音乐">
+                    <Image Source="Image/exportmcf.png"></Image>
+                </DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel Width="1" Background="#202020"></DockPanel>
+                <DockPanel Width="1" Background="#40404A"></DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel Name="copybuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="copybuttom_MouseUp"  ToolTip="复制">
+                    <Image Source="Image/copy.png"></Image>
+                </DockPanel>
+                <DockPanel Name="cutbuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="cutbuttom_MouseUp"  ToolTip="剪切">
+                    <Image Source="Image/cut.png"></Image>
+                </DockPanel>
+                <DockPanel Name="pastebuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="pastebuttom_MouseUp"  ToolTip="粘贴">
+                    <Image Source="Image/paste.png"></Image>
+                </DockPanel>
+                <DockPanel Name="deletebuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave"
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="deletebuttom_MouseUp"  ToolTip="删除">
+                    <Image Source="Image/delete.png"></Image>
+                </DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel Width="1" Background="#202020"></DockPanel>
+                <DockPanel Width="1" Background="#40404A"></DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFE8E8E8" FontSize="16" Cursor="SizeNS" BorderBrush="#FF434346" Background="#FF333337" BorderThickness="1"
+                       Name="tickrate"
+                       Width="64"
+                       MouseEnter="label_MouseEnter"
+                       MouseLeave="label_MouseLeave"
+                       PreviewMouseDown="tickrate_MouseDown"
+                       MouseMove="tickrate_MouseMove"
+                       MouseUp="tickrate_MouseUp" HorizontalContentAlignment="Center"
+                       ToolTip="游戏运行速率">20.0</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="#A0A0A0">TPS</Label>
+                </DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel Width="1" Background="#202020"></DockPanel>
+                <DockPanel Width="1" Background="#40404A"></DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel Name="loopbuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       ToolTip="循环"
+                       MouseUp="loopbuttom_MouseUp">
+                    <Canvas Width="32">
+                        <Rectangle Width="32" Height="32" Stroke="#FF007ACC" StrokeThickness="2" Name="loopstroke"></Rectangle>
+                        <Image Source="Image/loop.png"></Image>
+                    </Canvas>
+
+                </DockPanel>
+                <DockPanel Name="autopagebuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       ToolTip="自动翻页"
+                       MouseUp="autopagebuttom_MouseUp">
+                    <Canvas Width="32">
+                        <Rectangle Width="32" Height="32" Stroke="#FF007ACC" StrokeThickness="2" Name="autopagestroke"></Rectangle>
+                        <Image Source="Image/autopage.png"></Image>
+                    </Canvas>
+                </DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel Width="1" Background="#202020"></DockPanel>
+                <DockPanel Width="1" Background="#40404A"></DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel Name="playbuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       ToolTip="播放"
+                       MouseUp="playbuttom_MouseUp">
+                    <Image Source="Image/play.png"></Image>
+                </DockPanel>
+                <DockPanel Name="pausebuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown" 
+                       MouseUp="pausebuttom_MouseUp"
+                       ToolTip="暂停"
+                       Visibility="Collapsed">
+                    <Image Source="Image/pause.png"></Image>
+                </DockPanel>
+                <DockPanel Name="stopbuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown"
+                       MouseUp="stopbuttom_MouseUp"
+                       ToolTip="停止">
+                    <Image Source="Image/stop.png"></Image>
+                </DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel Width="1" Background="#202020"></DockPanel>
+                <DockPanel Width="1" Background="#40404A"></DockPanel>
+                <DockPanel Width="7"></DockPanel>
+                <DockPanel Name="informationbuttom" 
+                       MouseEnter="buttom_MouseEnter" 
+                       MouseLeave="buttom_MouseLeave" 
+                       MouseDown="buttom_MouseDown"
+                       MouseUp="informationbuttom_MouseUp"
+                       ToolTip="关于">
+                    <Image Source="Image/about.png"></Image>
+                </DockPanel>
+            </StackPanel>
+            <StackPanel Background="#2D2D30" Grid.Row="3" Grid.Column="1">
+            </StackPanel>
+            <ScrollViewer Grid.Row="3" Grid.Column="2" Visibility="Hidden" Name="ChannalBoardsv">
+                <StackPanel Loaded="StackPanel_Loaded" Name="channalboard">
+
+                </StackPanel>
+            </ScrollViewer>
+            <StackPanel Background="#2D2D30" Grid.Row="4" Grid.ColumnSpan="4" Grid.Column="1"></StackPanel>
+            <StackPanel Background="#2D2D30" Grid.Row="3" Grid.Column="4"></StackPanel>
+
+                <Grid Grid.Row="5" Background="#FF007ACC" Grid.Column="1" Grid.ColumnSpan="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Name="Filename" Foreground="White" VerticalContentAlignment="Center">就绪</Label>
+                <Label Name="tip" Grid.Column="1" HorizontalAlignment="Right" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"></Label>
+                </Grid>
+
+            <StackPanel Grid.Column="1" Grid.ColumnSpan="4" Cursor="SizeNS" Name="bordern" MouseDown="bordern_MouseDown" MouseMove="bordern_MouseMove"  MouseUp="bordern_MouseUp">
+                <DockPanel Height="8">
+                    <DockPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#00007ACC" Offset="0"/>
+                            <GradientStop Color="#60007ACC" Offset="1"/>
+                        </LinearGradientBrush>
+                    </DockPanel.Background>
+                </DockPanel>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Grid.ColumnSpan="4" Cursor="SizeNS" Grid.Row="6" Name="borders" MouseDown="borders_MouseDown" MouseMove="borders_MouseMove" MouseUp="borders_MouseUp">
+                <DockPanel Height="8" Name="borders_">
+                    <DockPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#00007ACC" Offset="1"/>
+                            <GradientStop Color="#60007ACC" Offset="0"/>
+                        </LinearGradientBrush>
+                    </DockPanel.Background>
+                </DockPanel>
+            </StackPanel>
+            <StackPanel Cursor="SizeWE" Grid.Row="1" Name="borderw" Grid.RowSpan="5" Orientation="Horizontal" MouseDown="borderw_MouseDown" MouseMove="borderw_MouseMove" MouseUp="borderw_MouseUp">
+                <DockPanel Width="8">
+                    <DockPanel.Background>
+                        <LinearGradientBrush EndPoint="0,0.5" StartPoint="1,0.5">
+                            <GradientStop Color="#00007ACC" Offset="1"/>
+                            <GradientStop Color="#60007ACC" Offset="0"/>
+                        </LinearGradientBrush>
+                    </DockPanel.Background>
+                </DockPanel>
+            </StackPanel>
+            <StackPanel Cursor="SizeWE" Grid.Row="1" Name="bordere" Grid.RowSpan="5" Orientation="Horizontal" Grid.Column="5" MouseDown="bordere_MouseDown" MouseMove="bordere_MouseMove" MouseUp="bordere_MouseUp">
+                <DockPanel Width="8">
+                    <DockPanel.Background>
+                        <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                            <GradientStop Color="#00007ACC" Offset="1"/>
+                            <GradientStop Color="#60007ACC" Offset="0"/>
+                        </LinearGradientBrush>
+                    </DockPanel.Background>
+                </DockPanel>
+            </StackPanel>
+            <StackPanel Name="bordernw" Cursor="SizeNWSE" MouseDown="bordernw_MouseDown" MouseMove="bordernw_MouseMove" MouseUp="bordernw_MouseUp">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="1,1" StartPoint="0,0">
+                        <GradientStop Color="#00007ACC" Offset="0.5"/>
+                        <GradientStop Color="#60007ACC" Offset="1"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel Name="borderse" Cursor="SizeNWSE" Grid.Row="6" Grid.Column="5" MouseDown="borderse_MouseDown" MouseMove="borderse_MouseMove" MouseUp="borderse_MouseUp">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="1,1" StartPoint="0,0">
+                        <GradientStop Color="#00007ACC" Offset="0.5"/>
+                        <GradientStop Color="#60007ACC" Offset="0"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel Name="borderne" Cursor="SizeNESW" Grid.Column="5" MouseDown="borderne_MouseDown" MouseMove="borderne_MouseMove" MouseUp="borderne_MouseUp">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="1,0" StartPoint="0,1">
+                        <GradientStop Color="#00007ACC" Offset="0.5"/>
+                        <GradientStop Color="#60007ACC" Offset="0"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+            </StackPanel>
+            <StackPanel Name="bordersw" Cursor="SizeNESW" Grid.Row="6" MouseDown="bordersw_MouseDown" MouseMove="bordersw_MouseMove" MouseUp="bordersw_MouseUp">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="1,0" StartPoint="0,1">
+                        <GradientStop Color="#00007ACC" Offset="0.5"/>
+                        <GradientStop Color="#60007ACC" Offset="1"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</Window>
